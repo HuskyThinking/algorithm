@@ -1,4 +1,4 @@
-package net.husky.base;
+package net.husky.array;
 
 /**
  * @ClassName: BitTest

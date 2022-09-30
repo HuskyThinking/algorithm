@@ -1,12 +1,12 @@
-package net.husky.base;
+package net.husky.array;
 
 /**
- * @ClassName: BinarySearch
+ * @ClassName: LeetCode704
  * @Description: 704. 二分查找
  * @Author: Fisher
  * @Date: 2022/9/25 14:15
  **/
-public class BinarySearch {
+public class LeetCode704 {
 
     public static void main(String[] args) {
         int[] nums = {-1, 0, 3, 5, 9, 12};
