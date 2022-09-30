@@ -1,4 +1,4 @@
-package husky.base;
+package net.husky.base;
 
 /**
  * @ClassName: BinarySearch
