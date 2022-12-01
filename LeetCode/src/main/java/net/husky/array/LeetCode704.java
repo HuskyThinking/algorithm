@@ -74,4 +74,31 @@ public class LeetCode704 {
         return resp;
     }
 
+    /**
+     * 2022.11.15 二刷
+     *  未及时退出，没有思考到左闭右闭区间这个方向，left与right的增减
+     *  midlle的计算
+     * @param nums
+     * @param target
+     * @return
+     */
+    public int search(int[] nums, int target) {
+        int left = 0;
+        int right = nums.length - 1;
+        int ret = -1;
+        while(left < right){
+            int middle = (left + right) / 2;
+            int temp = nums[middle];
+            if(temp > target) {
+                right = middle;
+            } else if(temp < target) {
+                left = middle;
+            } else {
+
+                ret = middle;
+            }
+        }
+        return ret;
+    }
+
 }
